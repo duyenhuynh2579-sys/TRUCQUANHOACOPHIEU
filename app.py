@@ -14,7 +14,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("📈 KIỂM ĐỊNH XU HƯỚNG GIÁ CỔ PHIẾU BẰNG MANN-KENDALL")
+st.title("📈 KIỂM ĐỊNH XU HƯỚNG GIÁ CỔ PHIẾU BẰNG MANN-KENDALL_ĐỀ TÀI 02_HUỲNH THỊ CẨM DUYÊN")
 
 st.write(
     """
