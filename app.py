@@ -140,7 +140,6 @@ if run:
 ax[1].grid(True)
 
     plt.tight_layout()
-
     st.pyplot(fig)
 
     # =============================
