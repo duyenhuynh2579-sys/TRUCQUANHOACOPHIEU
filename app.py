@@ -5,7 +5,7 @@ import numpy as np
 import pymannkendall as mk
 import matplotlib.pyplot as plt
 import mplfinance as mpf
-st.image("logo.jpg", width=300)
+
 # =============================
 # CẤU HÌNH TRANG
 # =============================
@@ -23,7 +23,7 @@ st.image("logo.jpg")
 # =============================
 # TIÊU ĐỀ
 # =============================
-st.title("📈 TRỰC QUAN HÓA GIÁ CỔ PHIẾU VÀ KIỂM ĐỊNH MANN-KENDALL_ĐỀ TÀI 02_HUỲNH THỊ CẨM DUYÊN")
+st.title("📈 TRỰC QUAN HÓA GIÁ CỔ PHIẾU VÀ KIỂM ĐỊNH MANN-KENDALL")
 st.subheader("TS. VŨ ĐỨC BÌNH")
 
 st.markdown("---")
@@ -137,9 +137,10 @@ if run:
     ax[1].set_ylabel("Return")
     ax[1].set_xlabel("Date")
     ax[1].legend()
-ax[1].grid(True)
+    ax[1].grid(True)
 
     plt.tight_layout()
+
     st.pyplot(fig)
 
     # =============================
