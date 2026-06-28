@@ -4,6 +4,7 @@ import pandas as pd
 import pymannkendall as mk
 import matplotlib.pyplot as plt
 
+st.image("logo.jpg", width=200)
 # =============================
 # CẤU HÌNH TRANG
 # =============================
