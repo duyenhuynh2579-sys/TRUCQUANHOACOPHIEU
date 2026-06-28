@@ -18,7 +18,7 @@ st.set_page_config(
 # =============================
 # LOGO
 # =============================
-st.image("logo.jpg, width=300")
+st.image("logo.jpg", width=300)
 
 # =============================
 # TIÊU ĐỀ
